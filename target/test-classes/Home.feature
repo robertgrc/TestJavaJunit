@@ -13,5 +13,5 @@ Feature: As a user I should be able to see all the available items in the home p
   Examples:
     |product|
     |Sauce Labs Onesie |
-    |Sauce Labs Bike Light |
+    |Sauce Labs Bike Light|
 
