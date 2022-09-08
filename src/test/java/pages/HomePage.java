@@ -15,4 +15,8 @@ public class HomePage {
     public void verifyHomePageHeaderIsDisplayed(){
         Assert.assertTrue(header.isVisible());
     }
+
+    public void verifyProductInHomePage(String product){
+        Assert.assertTrue(driver.isVisible("//div[text()='"+product+"']"));
+    }
 }
