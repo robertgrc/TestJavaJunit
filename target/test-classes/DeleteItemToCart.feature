@@ -6,8 +6,9 @@ Feature: As a user i should be able to checkout a purchase
     And I click on the login button
     Then I should be in the home page
 
-  Scenario: add Sauce Labs Bike Light to cart
+  Scenario: delete Sauce Labs Bike Light from cart
     When I add Sauce Labs Bike Light product to the cart
     And I click on the cart button
-    Then I should be able to see the article Sauce Labs Bike Light into the cart
+    And I click on the remove button
+
 

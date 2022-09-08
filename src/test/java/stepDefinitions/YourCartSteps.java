@@ -10,4 +10,9 @@ public class YourCartSteps {
     public void clickOnCheckoutButton(){
         yourCartPage.clickOnCheckoutButton();
     }
+
+    @And("I click on the remove button")
+    public void clickOnRemoveButton(){
+        yourCartPage.clickOnRemoveButton();
+    }
 }

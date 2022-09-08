@@ -11,3 +11,4 @@ Feature: As a user i should be able to checkout a purchase
     And I click on the cart button
     Then I should be able to see the article Sauce Labs Bike Light into the cart
 
+
