@@ -6,10 +6,10 @@ Feature: As a user i should be able to checkout a purchase
     And I click on the login button
     Then I should be in the home page
 
-  Scenario: delete Sauce Labs Bike Light from cart
+  Scenario: Verify message error in form
     When I add Sauce Labs Bike Light product to the cart
     And I click on the cart button
-    And I click on the remove button
-    Then I should be able to see the cart page without the item Sauce Labs Bike Light into the cart
-
-
+    And I click on checkout button
+    And I fill the customer data with
+      || rodriguez |12345|
+    Then I verify that a error message that says {string} is displayed
